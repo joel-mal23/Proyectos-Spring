@@ -6,6 +6,7 @@ spring:
   config:
    server:
     git:
+     default-label: main
      uri: https://github.com/joel-mal23/Proyectos-Spring.git
      searchPaths: config-data 
      username: ${GIT_USER}
