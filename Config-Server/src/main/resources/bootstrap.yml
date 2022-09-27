@@ -1,4 +1,3 @@
-
 server:
  port: 8081
  
@@ -8,9 +7,10 @@ spring:
    server:
     git:
      uri: https://github.com/joel-mal23/Proyectos-Spring.git
-     searchPaths: config-data
+     searchPaths: config-data 
      username: ${GIT_USER}
      password: ${GIT_PASSWORD}
+      
  security:
   user: 
    name: root
