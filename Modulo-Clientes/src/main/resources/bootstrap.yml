@@ -1,8 +1,11 @@
 spring:
  application:
   name: ms-clientes
+ profiles:
+    active:
+    - dev
  cloud:
   config:
+   enabled: true
    uri: http://localhost:8081
-   username: root
-   password: s3cr3t
+   
